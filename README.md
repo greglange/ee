@@ -1,3 +1,4 @@
+```
 # show hands
 --- Player: 0 ---
 {3:1} {1:0} {6:5} {5:1} {5:2} {4:2} {2:0} {6:1} {3:3}
@@ -327,3 +328,4 @@ Team: 0
 Team 0 had 36 points
 Team: 1
 Team 1 had 42 points
+```
