@@ -13,6 +13,8 @@ func main() {
 	dominoes := ee.TwoDominoSets()
 	hands := ee.DealDominoes(dominoes)
 
+	fmt.Println(total_count + 18)
+
 	fmt.Println("# show hands")
 	for player, hand := range hands {
 		fmt.Println("--- Player:", player, "---")
@@ -43,7 +45,6 @@ func main() {
 				fmt.Println("Invalid input")
 				continue
 			}
-			// TODO: check if player has trump bid in
 			if playerBid == -1 {
 				if bid >= 60 && bid <= 88 && trump >= -1 && trump <= 6 {
 					if ee.HasSuit(trump, hand) {
